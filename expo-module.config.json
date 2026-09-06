@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["PersianNumberInputModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.persiannumberinput.PersianNumberInputModule"]
+  }
+}

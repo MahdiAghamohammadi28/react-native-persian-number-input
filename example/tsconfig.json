@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "react-native-persian-number-input": ["../src/index"],
+      "react-native-persian-number-input/*": ["../src/*"]
+    }
+  }
+}
