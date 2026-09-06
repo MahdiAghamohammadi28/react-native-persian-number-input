@@ -1,5 +1,8 @@
-// Reexport the native module. On web, it will be resolved to PersianNumberInputModule.web.ts
-// and on native platforms to PersianNumberInputModule.ts
-export { default } from './PersianNumberInputModule';
-export { default as PersianNumberInputView } from './PersianNumberInputView';
-export * from './PersianNumberInput.types';
+export type {
+  PersianNumberInputHandle,
+  PersianNumberInputNativeProps,
+  PersianNumberInputProps,
+  PersianNumberInputStyle,
+} from './PersianNumberInput.types';
+export { default as PersianNumberInput } from './PersianNumberInputView';
+export { default } from './PersianNumberInputView';
